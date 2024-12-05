@@ -11,6 +11,8 @@ function getData() {
         console.log('Données récupérées du fichier JSON :', data);
         /// ON ECRIT LE CODE ICI ! 
  
+    ""
+
 
 
 
@@ -30,4 +32,3 @@ function getData() {
   ///ON écrit les fonctions ici
 
 
-  
