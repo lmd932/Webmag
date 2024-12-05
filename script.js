@@ -37,7 +37,7 @@ function obtenirDonnees() {
                     {
                         "prenomExpert": "Maxime",
                         "expertise": "Journaliste automobile",
-                        "bio": "Spécialiste des voitures sportives, je teste et analyse les performances des modèles les plus prisés."
+                        "bio": "Spécialiste des voitures sportives, je teste et analyse les performances des modèles les plus prisés."                  
                     },
                     {
                         "prenomExpert": "Camille",
@@ -77,6 +77,7 @@ function obtenirDonnees() {
             expertDiv.innerHTML = `
                 <div class="avatar-expert"></div>
                 <h3>${expert.prenomExpert}</h3>
+                <img class="avatar" src=${expert.image}">
                 <p class="expertise">${expert.expertise}</p>
                 <p class="bio">${expert.bio}</p>
             `;
@@ -87,8 +88,6 @@ function obtenirDonnees() {
             const car = document.querySelector('.animated-car');
             car.addEventListener('animationiteration', () => {
                 console.log('Voiture réinitialisée !');
-                // Optionnel : modifier l'animation dynamiquement
-                // car.style.animationDuration = `${Math.random() * 5 + 5}s`;
             });
         });
         
