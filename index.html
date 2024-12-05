@@ -1,12 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Webmag</title>
+    <title>Passion Voitures Sportives</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header class="en-tete">
+        <div class="logo">Passion Voitures Sportives</div>
+        <nav class="navigation">
+            <a href="#">Thème 1</a>
+            <a href="#">Thème 2</a>
+            <a href="#">Thème 3</a>
+            <a href="#">Thème 4</a>
+        </nav>
+        <button class="bouton-abonnement">S'abonner</button>
+    </header>
+    <main>
+        <section class="hero">
+            <h1>Passion Voitures Sportives</h1>
+            <p class="slogan">Toute l'actualité des voitures sportives : performances, nouveautés et comparatifs</p>
+        </section>
+        <section class="article-vedette">
+            <h2 id="vedette">ARTICLE VEDETTE</h2>
+            <div class="conteneur-vedette">
+                <div class="image-vedette">
+                    <img src="https://www.drivek.fr/wp-content/themes/drivek/v4/assets/img/hero-compare-d-bg.jpg" alt="BMW vs Audi">
+                </div>
+                <div class="contenu-vedette">
+                    <h3>BMW vs Audi : Duel des nouvelles générations sportives</h3>
+                    <p class="date">Publié le 1er Décembre 2024</p>
+                    <p class="categorie">Comparatifs de modèles</p>
+                    <p class="resume">Analyse des dernières sorties sportives des deux géants allemands : design, puissance et technologie.</p>
+                    <button class="lire-plus">Lire l'article</button>
+                </div>
+            </div>
+        </section>        
+        <section class="articles">
+            <h2>Autres Articles</h2>
+            <div id="liste-articles"></div>
+        </section>
+        <section class="experts">
+            <h2>Découvrez notre équipe</h2>
+            <div id="liste-experts"></div>
+        </section>
+    </main>
+    <footer class="pied-de-page">
+        <div class="car-animation">
+            <img src="Profil.png" alt="Voiture qui défile" class="animated-car">
+        </div>        
+        <p>&copy; Passion Voitures Sportives 2024</p>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
