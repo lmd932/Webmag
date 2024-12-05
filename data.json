@@ -1,0 +1,85 @@
+{
+    "magSportAuto": {
+      "titreMag": "Passion Voitures Sportives",
+      "slogan": "Toute l'actualité des voitures sportives : performances, nouveautés et comparatifs",
+      "invitationAbonnement": "Abonnez-vous pour rester informé des dernières innovations et modèles des plus grandes marques",
+      "articleVedette": {
+        "titrePrincipal": "BMW vs Audi : Duel des nouvelles générations sportives",
+        "resume": "Analyse des dernières sorties sportives des deux géants allemands : design, puissance et technologie.",
+        "datePublication": "1er Décembre 2024",
+        "categorie": "Comparatifs de modèles",
+        "illustration": "images/bmw_audi_duel.png"
+      },
+      "articlesPerformance": [
+        {
+          "titreArticle": "Les modèles les plus rapides de 2024 : Audi R8 et BMW M8 en tête",
+          "datePublication": "28 Novembre 2024",
+          "categorie": "Performances extrêmes",
+          "illustration": "images/rapides_2024.png"
+        },
+        {
+          "titreArticle": "Les technologies embarquées des nouvelles BMW et Audi",
+          "datePublication": "20 Novembre 2024",
+          "categorie": "Technologie et innovations",
+          "illustration": "images/technologie_embarquee.png"
+        },
+        {
+          "titreArticle": "L'évolution des moteurs : Vers une nouvelle ère hybride et électrique",
+          "datePublication": "15 Novembre 2024",
+          "categorie": "Motorisation",
+          "illustration": "images/evolution_moteurs.png"
+        },
+        {
+          "titreArticle": "Histoire des séries M de BMW et RS d'Audi : Une légende en constante évolution",
+          "datePublication": "10 Novembre 2024",
+          "categorie": "Histoire des modèles",
+          "illustration": "images/histoire_m_rs.png"
+        },
+        {
+          "titreArticle": "Comparatif des intérieurs : Luxe et sportivité chez Audi et BMW",
+          "datePublication": "5 Novembre 2024",
+          "categorie": "Design intérieur",
+          "illustration": "images/interieur_sportif.png"
+        }
+      ],
+      "categoriesSportAuto": [
+        {
+          "nomCategorie": "Comparatifs de modèles",
+          "descriptionCategorie": "Analyses détaillées des modèles sportifs BMW, Audi et autres marques prestigieuses."
+        },
+        {
+          "nomCategorie": "Performances extrêmes",
+          "descriptionCategorie": "Découvrez les voitures sportives les plus rapides et puissantes de l'année."
+        },
+        {
+          "nomCategorie": "Technologie et innovations",
+          "descriptionCategorie": "Explorez les dernières avancées technologiques dans les véhicules sportifs."
+        },
+        {
+          "nomCategorie": "Motorisation",
+          "descriptionCategorie": "Plongée dans l'évolution des moteurs thermiques, hybrides et électriques."
+        },
+        {
+          "nomCategorie": "Histoire des modèles",
+          "descriptionCategorie": "Retour sur l'évolution des gammes sportives emblématiques des grandes marques."
+        }
+      ],
+      "expertsSportAuto": [
+        {
+          "prenomExpert": "Maxime",
+          "expertise": "Journaliste automobile",
+          "bio": "Spécialiste des voitures sportives, je teste et analyse les performances des modèles les plus prisés."
+        },
+        {
+          "prenomExpert": "Camille",
+          "expertise": "Ingénieur en mécanique automobile",
+          "bio": "Je décrypte les innovations techniques et les moteurs des dernières voitures sportives."
+        },
+        {
+          "prenomExpert": "Lucas",
+          "expertise": "Historien automobile",
+          "bio": "Passionné par l'histoire des grandes marques, je retrace l'évolution des gammes BMW et Audi."
+        }
+      ]
+    }
+  }
