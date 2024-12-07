@@ -38,30 +38,42 @@ img {
     font-weight: bold;
 }
 
-.navigation a {
-    margin: 0 10px;
-    color: #fff;
-    font-size: 1em;
+.navigation {
+    padding: 10px 20px;
+    background-color: gray;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.navigation a:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    z-index: 1;
 }
 
 .bouton-abonnement {
     padding: 10px 15px;
     border: none;
-    background-color: #ff5733;
+    background-color: gray;
     color: white;
     font-size: 1em;
     cursor: pointer;
     border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
 }
 
 .bouton-abonnement:hover {
-    background-color: #e14e2d;
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    z-index: 1;
 }
 
-/* HERO SECTION */
 .hero {
     text-align: center;
-    background-color: #333;
+    background-image: url(nuova-rs3-audizentrumvarese-11.jpg);
     color: white;
     padding: 50px 20px;
 }
@@ -77,7 +89,6 @@ img {
     font-style: italic;
 }
 
-/* ARTICLE VEDETTE */
 .article-vedette {
     padding: 20px;
     background-color: #f4f4f4;
@@ -92,9 +103,16 @@ img {
 }
 
 .image-vedette img {
-    max-width: 300px;
+    max-width: 450px;
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-vedette img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    z-index: 1;
 }
 
 .contenu-vedette h3 {
@@ -116,14 +134,20 @@ img {
 
 .lire-plus {
     padding: 10px 20px;
-    background-color: #ff5733;
+    background-color: gray;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    transition: transform 0.3s ease-in-out;
 }
 
-/* ARTICLES */
+.lire-plus:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
 .articles .article {
     display: flex;
     align-items: center;
@@ -136,10 +160,17 @@ img {
 }
 
 .articles .article img {
-    max-width: 150px;
+    max-width: 300px;
     height: auto;
     margin-right: 15px;
     border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.articles .article img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    z-index: 1;
 }
 
 .info-article h3 {
@@ -154,7 +185,6 @@ img {
     color: #777;
 }
 
-/* EXPERTS */
 .experts {
     padding: 20px 30px;
     background-color: #f1f1f1;
@@ -183,7 +213,6 @@ img {
     color: #333;
 }
 
-/* PIED DE PAGE ET ANIMATION */
 .pied-de-page {
     text-align: center;
     background-color: #000;
